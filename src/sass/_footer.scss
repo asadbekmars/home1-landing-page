@@ -1,0 +1,38 @@
+.footer{
+    @include display();
+    align-items: flex-start;
+    padding: 48px 0;
+
+    .box{
+        p{
+            padding-top: 16px;
+            color: $greyColor;
+        }
+    }
+
+    .link{
+        @include display(8px);
+        align-items: flex-start;
+        flex-direction: column;
+        
+
+        p{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.25px;
+            color: #333333;
+            
+        }
+
+        a{
+            font-size: 14px;
+            line-height: 22px;
+            color: $greyColor;
+        }
+
+        .f-p{
+            color: $greyColor;
+        }
+    }
+}

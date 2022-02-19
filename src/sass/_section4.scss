@@ -1,0 +1,68 @@
+.section4{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+    .company-div{
+        @include display(68px);
+        justify-content:center;
+        margin: 60px 0 110px;
+    }
+
+    .comment-div{
+        width: 768px;
+        height: 279px;
+        border: 2px solid #EAEAEA;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 84px 0 32px;
+        position: relative;
+
+        span{
+            position: absolute;
+            top: -40px;
+            
+            img{
+                width: 96px; 
+                left: 50%;
+                transform: translate(-50%);
+            }
+
+            .icon-img{
+                position: absolute;
+                width: 45px; 
+                top: 5px;
+            }
+        }
+
+        p{
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: -0.25px;
+            color: $mainColor;
+            padding: 16px 52px;
+        }
+
+        h5{
+            font-size: 18px;
+            line-height: 29px;
+            letter-spacing: -0.25px;
+            color: $mainColor;
+        }
+
+        .p-ceo{
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.25px;
+            color: $greyColor;
+            padding: 4px 0 32px;
+
+            a{
+                color:rgb(37, 121, 248);
+            }
+        }
+
+    }
+}

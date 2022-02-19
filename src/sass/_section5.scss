@@ -1,0 +1,56 @@
+.section5{
+        background: #191919;
+        box-shadow: 0px 20px 50px -12px rgba(25, 25, 25, 0.16);
+        border-radius: 4px;
+        height: 338px;
+        width: 100%;
+        color: white;
+        margin: 80px 0 120px ;
+        position: relative;
+        padding: 64px 0 64px 48px;
+    
+    img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }   
+        
+    h3{
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -0.25px;
+    }
+
+    p{
+        padding: 8px 0 24px;
+    }
+
+    input{
+        height: 48px;
+        width: 320px;
+        background: #333333;
+        border: 1px solid #4C4C4C;
+        box-sizing: border-box;
+        border-radius: 2px;
+        padding-left: 16px;
+        color: white;
+    }
+
+    button{
+        height: 48px;
+        width: 167px;
+        background: #0070F4;
+        box-shadow: 0px 10px 15px -3px rgba(25, 32, 44, 0.16);
+        border-radius: 4px;
+        border: none;
+        color: white;
+    }
+
+    .p-grey{
+        font-size: 14px;
+        line-height: 22px;
+        color: #999999;
+        padding-top: 12px;
+    }
+    
+}
